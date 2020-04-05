@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+        <link href="CSS/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+        <title>Facebook</title>
+    </head>
+
+    <body>
+        <div class="navbar_Top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="IMAGES/logo.png" class="navbar-brand" id="logo">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" placeholder="Email" id="inputDados">
+                        <input type="text" placeholder="Senha" id="inputDados">
+                        <button id="btnLogar">Logar</button>
+                    </div>
+
+                </div>
+            </div>
+        <div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 id="Titulo">Logins recentes</h1>
+                    <span id="Sub-titulo">Clique na sua foto ou adicione uma conta.</span>
+                    <div class="card-group" id="LogRecent">
+                        <div class="card" id="LogRecent">
+                          <img src="IMAGES/William.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <center><h5 class="card-title">William</h5></center>
+                          </div>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="card" id="LogRecent">
+                          <img src="IMAGES/Gui.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <center><h5 class="card-title">Guilherme</h5></center>
+                          </div>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="card" id="LogRecent">
+                            <img src="IMAGES/Add.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <center><h5><a id="linkAdd">Adicionar</a></h5></center>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <h1 id="Titulo">Criar uma nova conta</h1>
+                    <span id="Sub-titulo">É rápido e fácil.</span>
+                    <form>
+                    <input type="text" id="Nome" placeholder="Nome">
+                    <input type="text" id="Nome" placeholder="Sobrenome"><br>
+                    <input type="text" id="Forms" placeholder="Celular ou email"><br>
+                    <input type="text" id="Forms" placeholder="Nova senha"><br>
+                    </form>
+                    <span id="Sub-titulo2">Data de nascimento</span><br>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-Secondary" id="btnDia">Dia</button>
+                        <button type="button" class="btn btn-Secondary dropdown-toggle dropdown-toggle-split" id="btnDia"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                            <a class="dropdown-item" href="#">4</a>
+                            <a class="dropdown-item" href="#">5</a>
+                            <a class="dropdown-item" href="#">6</a>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-Secondary" id="btnDia">Mês</button>
+                        <button type="button" class="btn btn-Secondary dropdown-toggle dropdown-toggle-split" id="btnDia" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                            <a class="dropdown-item" href="#">4</a>
+                            <a class="dropdown-item" href="#">5</a>
+                            <a class="dropdown-item" href="#">6</a>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-Secondary" id="btnDia">Ano</button>
+                        <button type="button" class="btn btn-Secondary dropdown-toggle dropdown-toggle-split" id="btnDia"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">1999</a>
+                          <a class="dropdown-item" href="#">1998</a>
+                          <a class="dropdown-item" href="#">1997</a>
+                          <a class="dropdown-item" href="#">1996</a>
+                          <a class="dropdown-item" href="#">1995</a>
+                          <a class="dropdown-item" href="#">1994</a>
+                        </div>
+                    </div>
+                    <br><span id="Sub-titulo2">Gênero</span><br>
+                    <input type="radio"> Masculino 
+                    <input type="radio"> Feminino
+                    <br>
+                    <button id="btnCad">Cadastrar-se</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="rodape">
+            <div class="container">
+                <span id="rodapeLang"> Português (Brasil)</span>
+                <span id="rodapeLang"> English (US) </span>
+                <span id="rodapeLang"> Español </span>
+                <span id="rodapeLang"> Français (France) </span>
+                <span id="rodapeLang"> Italiano </span>
+                <span id="rodapeLang"> العربية </span>
+                <span id="rodapeLang"> हिन्दी</span>
+                <span id="rodapeLang"> 中文(简体)</span>
+                <span id="rodapeLang"> 日本語</span>
+                <i class="fas fa-plus" id="plus"></i>
+                <div class="SeparatorRodape"></div>
+                <span id="rodapeLang2">Cadastre-se</span>
+                <span id="rodapeLang2">Entrar</span>
+                <span id="rodapeLang2">Messenger</span>
+                <span id="rodapeLang2">Facebook Lite</span>
+                <span id="rodapeLang2">Watch</span>
+                <span id="rodapeLang2">Pessoas</span>
+                <span id="rodapeLang2">Páginas</span>
+                <span id="rodapeLang2">Categorias de Página</span>
+                <span id="rodapeLang2">Locais</span>
+                <span id="rodapeLang2">Jogos</span>
+                <span id="rodapeLang2">Locais</span>
+                <span id="rodapeLang2">Marketplace</span>
+                <span id="rodapeLang2">Grupos</span>
+                <span id="rodapeLang2">Instagram</span>
+                <span id="rodapeLang2">Local</span>
+                <span id="rodapeLang2">Campanhas de arrecadação de fundos</span>
+                <span id="rodapeLang2">Serviços</span>
+                <span id="rodapeLang2">Sobre</span>
+                <span id="rodapeLang2">Criar anúncio</span>
+                <span id="rodapeLang2">Criar Página</span>
+                <span id="rodapeLang2">Desenvolvedores</span>
+                <span id="rodapeLang2">Carreiras</span>
+                <span id="rodapeLang2">Privacidade</span>
+                <span id="rodapeLang2">Cookies</span>
+                <span id="rodapeLang2">Opções de anúncio</span>
+                <span id="rodapeLang2">Termos</span>
+                <span id="rodapeLang2">Ajuda</span>
+                <br>
+                <br>
+                <span id="RodapeFinal">William P. Polaski - Desenvolvido em 05/04/2020   |    Redesign Facebook.com    |    Este código não é uma cópia, mas sim uma recriação.</span>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
