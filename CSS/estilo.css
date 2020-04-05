@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #E9EBEE;
+}
+
+
+
+/* NAVBAR TOPO */
+
+.navbar_Top{
+    background: #2f477a;
+    width: 100%;
+    height: 60px;
+}
+
+#logo{
+    padding-bottom: 25px;
+    width: 170px;
+    height: 80px;
+}
+
+#btnLogar{
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px white solid;
+}
+
+#inputDados{
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 25px;
+    color:black;
+    padding-left: 6px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Formulários */
+
+#Titulo{
+    font-weight: bold;
+}
+
+#Sub-titulo{
+    font-size: 20px;
+}
+#Nome{
+    margin-top: 20px;
+    width: 193px;
+    margin-right: 2px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px #bdc7d8 solid;
+    font-weight: bold;
+    padding-left: 9px;
+}
+
+#Forms{
+    margin-top: 5px;
+    width: 390px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px #bdc7d8 solid;
+    font-weight: bold;
+    padding-left: 9px;
+}
+
+#btnCad{
+    margin-top: 20px;
+    width: 150px;
+    height: 60px;
+    color:white;
+    background: #2f477a;
+    border-radius: 5px;
+    border: 1px #2f477a solid;
+}
+
+/* Buttons Formulários */
+
+#btnDia{
+    background-color: transparent;
+    color: black;
+    border: 1px #bdc7d8 solid;
+}
+
+#Sub-titulo2{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* Parte Esquerda */
+
+#LogRecent{
+    width: 450px;
+    height: 210px;
+}
+
+#tamImg{
+    width: 160px;
+    height: 160px;
+}
+
+.separator{
+    padding:3px;
+}
+
+#linkAdd{
+    color: blue;
+    cursor: pointer;
+}
+
+/* Rodape */
+
+.rodape{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+#rodapeLang{
+    cursor: pointer;
+    color: #385898;
+    font-size: 13px;
+    margin-left: 4px;
+    line-height: 1.6;
+}
+
+#plus{
+    margin-left: 3px;
+    font-size: 13px;
+    padding: 2px;
+    border: 2px #bdc7d8 solid;
+}
+
+.SeparatorRodape{
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+    border-bottom: 1px #bdc7d8 solid;
+}
+
+#rodapeLang2{
+    cursor: pointer;
+    color: #385898;
+    font-size: 14.5px;
+    margin-left: 7px;
+    line-height: 1.6;
+}
+
+#RodapeFinal{
+    color: #385898;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 7px;
+    line-height: 1.6;
+}
